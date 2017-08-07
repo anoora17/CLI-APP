@@ -1,0 +1,17 @@
+{
+  "name": "CustomerView",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CustomerView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "inquirer": "^3.2.1",
+    "mysql": "^2.14.1"
+  }
+}
