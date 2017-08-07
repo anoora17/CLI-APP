@@ -1,18 +1,19 @@
 ##  Bamazon CLI-App
 
-An interactive shopping node app where MySQL and Node.JS are used to allow users to purchase items as a customer, view, track and update the product inventory as a manager, and track the total sales by department as an executive.
+
+In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this week. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
+Make sure you save and require the MySQL and Inquirer npm packages in your homework files--your app will need them for data input and storage.
 
 ## Code Example
 
-var mysql = require('mysql');
-var prompt = require('prompt');
-var colors = require('colors/safe');
-var Table = require('cli-table');
-var connection = mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
+				  var mysql = require('mysql');
+					var prompt = require('prompt');
+					var colors = require('colors/safe');
+					var Table = require('cli-table');
+					var connection = mysql.createConnection({
+						host: 'localhost',
+						user: 'root',
 
-#
 
 ## Installation
 npm packages:
@@ -21,24 +22,11 @@ npm packages:
  - [cli-table2](https://github.com/jamestalmage/cli-table2)
 
 
-An interactive shopping app via command line using Node and MySQL. This app has three views:
--[ Customer View]
--[Manager View]
--[Supervisor View]
+## Results:
 
+- [Customer View](https://youtu.be/43Sz7VTDT4g)
+- [ManagerView](https://youtu.be/w3aPxC0BiSk)
 
-
-
-#### Technologies Used:
-***
-
-* Javascript
-* nodeJS
-* MySQL
-* npm packages:
-	- [mysql](https://github.com/felixge/node-mysql)
-	- [inquirer](https://github.com/sboudrias/inquirer-npm-name)
-	- [cli-table2](https://github.com/jamestalmage/cli-table2)
 
 ##### LICENSE
 ****##
